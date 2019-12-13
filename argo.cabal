@@ -1,0 +1,19 @@
+name:                argo
+version:             0.1.0.0
+synopsis:            Zero-dep JSON parser with Haskell and Nix
+description:         Please read the readme.md file.
+bug-reports:         https://github.com/kutyel/argo/issues
+license:             MIT
+license-file:        LICENSE
+author:              Flavio Corpa
+maintainer:          flavio.corpa@47deg.com
+copyright:           copyright © 2019-2020 Flavio Corpa
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  CHANGELOG.md
+
+library
+  exposed-modules:     Argo
+  default-language:    Haskell2010
+  build-depends:       base >=4.12 && <4.13
