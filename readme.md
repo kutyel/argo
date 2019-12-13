@@ -1,6 +1,14 @@
 # argo
 
-Zero-dep JSON parser with Haskell and Nix
+[![CI Status](https://github.com/kutyel/argo/workflows/CI/badge.svg)](https://github.com/kutyel/argo/actions)
+
+📇 Zero-dep JSON parser with Haskell and Nix
+
+## Try it out!
+
+```bash
+$ nix-shell --pure shell.nix --run "cabal repl"
+```
 
 ### Known Issues (TODO's)
 
